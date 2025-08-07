@@ -52,8 +52,8 @@ int main() {
         productos.push_back(temp);
     }
 
-    cout << "\n--- Tabla de Productos ---";
-    mostrarReporte(productos);
+    cout << "\n--- Tabla de Productos ---\n";
+    mostrarTabla(productos);
 
     return 0;
 }
